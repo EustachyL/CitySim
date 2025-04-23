@@ -1,0 +1,3 @@
+﻿TexManager.obj : error LNK2019: nierozpoznany symbol zewnętrzny TTF_OpenFont przywołany w funkcji "public: __cdecl TexManager::TexManager(struct SDL_Renderer *,int)" (??0TexManager@@QEAA@PEAUSDL_Renderer@@H@Z)
+C:\Users\eusta\source\repos\fac36233-gr23-repo\Projekt\Symulator miasta\SDL_ttf\lib\SDL_ttf.lib : warning LNK4272: wystąpił konflikt typu maszyny biblioteki „x86” z typem maszyny docelowej „x64”
+C:\Users\eusta\source\repos\fac36233-gr23-repo\Projekt\Symulator miasta\x64\Debug\Symulator miasta.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 1

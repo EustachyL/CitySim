@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{f876d2b9-876c-4364-aaa6-f06b681e8838}</ProjectGuid>
+    <RootNamespace>Symulatormiasta</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\eusta\source\repos\fac36233-gr23-repo\Projekt\Symulator miasta\SDL2_image\include;C:\Users\eusta\source\repos\fac36233-gr23-repo\Projekt\Symulator miasta\SDL2\include;C:\Users\eusta\source\repos\fac36233-gr23-repo\Projekt\Symulator miasta\SDL2_ttf\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\eusta\source\repos\fac36233-gr23-repo\Projekt\Symulator miasta\SDL2_image\lib\x86;C:\Users\eusta\source\repos\fac36233-gr23-repo\Projekt\Symulator miasta\SDL2\lib\x86;C:\Users\eusta\source\repos\fac36233-gr23-repo\Projekt\Symulator miasta\SDL2_ttf\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>C:\Users\eusta\source\repos\fac36233-gr23-repo\Projekt\Symulator miasta\SDL2_ttf\lib\x64;C:\Users\eusta\source\repos\fac36233-gr23-repo\Projekt\Symulator miasta\SDL2_image\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\eusta\source\repos\fac36233-gr23-repo\Projekt\Symulator miasta\SDL2_image\include;C:\Users\eusta\source\repos\fac36233-gr23-repo\Projekt\Symulator miasta\SDL2_ttf\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\eusta\source\repos\fac36233-gr23-repo\Projekt\Symulator miasta\SDL2_image\lib\x86;C:\Users\eusta\source\repos\fac36233-gr23-repo\Projekt\Symulator miasta\SDL2\lib\x86;C:\Users\eusta\source\repos\fac36233-gr23-repo\Projekt\Symulator miasta\SDL2_ttf\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\eusta\source\repos\fac36233-gr23-repo\Projekt\Symulator miasta\SDL_ttf\include;C:\Users\eusta\source\repos\fac36233-gr23-repo\Projekt\Symulator miasta\SDL2_image\include;C:\Users\eusta\source\repos\fac36233-gr23-repo\Projekt\Symulator miasta\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\eusta\source\repos\fac36233-gr23-repo\Projekt\Symulator miasta\SDL2_ttf\lib\x64;C:\Users\eusta\source\repos\fac36233-gr23-repo\Projekt\Symulator miasta\SDL2_image\lib\x64;C:\Users\eusta\source\repos\fac36233-gr23-repo\Projekt\Symulator miasta\SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Budget.cpp" />
+    <ClCompile Include="Builder.cpp" />
+    <ClCompile Include="Buildings.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="Button_GI.cpp" />
+    <ClCompile Include="Clock.cpp" />
+    <ClCompile Include="Communal.cpp" />
+    <ClCompile Include="Empty.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="HDense.cpp" />
+    <ClCompile Include="Industrial.cpp" />
+    <ClCompile Include="Info.cpp" />
+    <ClCompile Include="Informer.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="Observer.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Residential.cpp" />
+    <ClCompile Include="Road.cpp" />
+    <ClCompile Include="School.cpp" />
+    <ClCompile Include="TexManager.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="Workspace.cpp" />
+    <ClCompile Include="Źródło.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Budget.h" />
+    <ClInclude Include="Builder.h" />
+    <ClInclude Include="Buildings.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Button_GI.h" />
+    <ClInclude Include="Clock.h" />
+    <ClInclude Include="Communal.h" />
+    <ClInclude Include="Empty.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="HDense.h" />
+    <ClInclude Include="Industrial.h" />
+    <ClInclude Include="Info.h" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="Informer.h" />
+    <ClInclude Include="Observer.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Residential.h" />
+    <ClInclude Include="Road.h" />
+    <ClInclude Include="School.h" />
+    <ClInclude Include="TexManager.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="Workspace.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

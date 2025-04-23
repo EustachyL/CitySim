@@ -1,0 +1,213 @@
+intialisation started
+Grid 100 by 100 initialized
+Grid generated
+textures imported
+UI imported
+intialisation sucessful
+clock started
+balance recount
+Out of 0 pop 0 dont have jobs
+Major Tick
+balance recount
+Out of 0 pop 0 dont have jobs
+Major Tick
+mysz
+przycisk
+Builder<T> invoked
+area mode
+mysz
+balance recount
+Out of 0 pop 0 dont have jobs
+Major Tick
+mysz
+mouse down 12x7
+balance recount
+Out of 0 pop 0 dont have jobs
+Major Tick
+mysz
+mouse up 18x7
+build on50x46
+build on50x47
+build on50x48
+build on50x49
+build on50x50
+build on50x51
+build on50x52
+Builder revoked
+balance recount
+Out of 0 pop 0 dont have jobs
+Major Tick
+balance recount
+Out of 0 pop 0 dont have jobs
+Major Tick
+mysz
+przycisk
+Builder<T> invoked
+area mode
+mysz
+balance recount
+Out of 0 pop 0 dont have jobs
+Major Tick
+mysz
+mouse down 14x8
+mysz
+mouse up 14x8
+build on51x48
+Builder revoked
+balance recount
+Out of 0 pop 0 dont have jobs
+Major Tick
+mysz
+przycisk
+Builder<T> invoked
+area mode
+balance recount
+Out of 0 pop 0 dont have jobs
+Major Tick
+mysz
+balance recount
+Out of 0 pop 0 dont have jobs
+Major Tick
+mysz
+mouse down 13x6
+mysz
+mouse up 16x6
+build on49x47
+build on49x48
+build on49x49
+build on49x50
+Builder revoked
+balance recount
+Out of 16 pop 0 dont have jobs
+Major Tick
+balance recount
+Out of 24 pop 0 dont have jobs
+Major Tick
+balance recount
+Out of 32 pop 2 dont have jobs
+Major Tick
+mysz
+przycisk
+Builder<T> invoked
+area mode
+mysz
+balance recount
+Out of 40 pop 10 dont have jobs
+Major Tick
+mysz
+Builder revoked
+przycisk
+Builder<T> invoked
+area mode
+mysz
+balance recount
+Out of 48 pop 18 dont have jobs
+Major Tick
+mysz
+mouse down 17x6
+balance recount
+Out of 56 pop 26 dont have jobs
+Major Tick
+mysz
+mouse up 18x6
+build on49x51
+build on49x52
+Builder revoked
+balance recount
+Out of 64 pop 0 dont have jobs
+Major Tick
+balance recount
+Out of 72 pop 2 dont have jobs
+Major Tick
+balance recount
+Out of 80 pop 10 dont have jobs
+Major Tick
+balance recount
+Out of 82 pop 12 dont have jobs
+Major Tick
+balance recount
+Out of 84 pop 14 dont have jobs
+Major Tick
+balance recount
+Out of 86 pop 16 dont have jobs
+Major Tick
+balance recount
+Out of 88 pop 18 dont have jobs
+Major Tick
+balance recount
+Out of 90 pop 20 dont have jobs
+Major Tick
+balance recount
+Out of 92 pop 22 dont have jobs
+Major Tick
+balance recount
+Out of 94 pop 24 dont have jobs
+Major Tick
+balance recount
+Out of 96 pop 26 dont have jobs
+Major Tick
+balance recount
+Out of 98 pop 28 dont have jobs
+Major Tick
+balance recount
+Out of 100 pop 30 dont have jobs
+Major Tick
+mysz
+przycisk
+Builder<T> invoked
+area mode
+mysz
+balance recount
+Out of 100 pop 30 dont have jobs
+Major Tick
+mysz
+mouse down 16x8
+balance recount
+Out of 100 pop 30 dont have jobs
+Major Tick
+mysz
+mouse up 18x8
+build on51x50
+build on51x51
+build on51x52
+Builder revoked
+balance recount
+Out of 100 pop 0 dont have jobs
+Major Tick
+balance recount
+Out of 100 pop 0 dont have jobs
+Major Tick
+balance recount
+Out of 100 pop 0 dont have jobs
+Major Tick
+balance recount
+Out of 100 pop 0 dont have jobs
+Major Tick
+balance recount
+Out of 100 pop 0 dont have jobs
+Major Tick
+balance recount
+Out of 100 pop 0 dont have jobs
+Major Tick
+balance recount
+Out of 100 pop 0 dont have jobs
+Major Tick
+balance recount
+Out of 100 pop 0 dont have jobs
+Major Tick
+balance recount
+Out of 100 pop 0 dont have jobs
+Major Tick
+balance recount
+Out of 100 pop 0 dont have jobs
+Major Tick
+balance recount
+Out of 100 pop 0 dont have jobs
+Major Tick
+balance recount
+Out of 100 pop 0 dont have jobs
+Major Tick
+Game closed
+clock stopped
+Game closed
+clock stopped
