@@ -1,55 +1,50 @@
-# Symulator Miasta
+# 🏙️ Symulator Miasta
 
-> Projekt zrealizowany w ramach przedmiotu **Podstawy Programowania Komputerów** na Politechnice Śląskiej  
-> Autor: Eustachy Lisiński  
-> Rok akademicki: 2021/2022  
+> 🎓 *Projekt zaliczeniowy z przedmiotu* **Podstawy Programowania Komputerów**  
+> 🏫 *Politechnika Śląska, Wydział Informatyki, Elektroniki i Informatyki*  
+> 👨‍💻 *Autor:* Eustachy Lisiński  
+> 📅 *Rok akademicki:* 2021/2022
 
-## Opis projektu
+---
 
-Symulator Miasta to prosty projekt gry ekonomiczno-symulacyjnej w stylu klasycznych city-builderów. Gracz ma za zadanie rozwijać miasto poprzez:
-- wyznaczanie dróg,
-- tworzenie stref mieszkalnych,
-- budowę zakładów pracy i obiektów komunalnych (np. szkół),
-- zarządzanie budżetem.
+## 📌 Opis projektu
 
-Głównym mechanizmem oceny atrakcyjności miasta jest jakość życia — mieszkańcy chętniej osiedlają się tam, gdzie mają dostęp do usług publicznych.
+**Symulator Miasta** to gra typu *city builder*, w której gracz rozwija własne miasto, zarządza budżetem i dba o potrzeby mieszkańców. Projekt oparty jest na bibliotece **SDL2** i napisany w języku **C++**.
 
-## Funkcjonalności
+### 🎮 Funkcjonalności
 
-- Tworzenie różnych typów budynków i stref.
-- System budżetowy (podatki, koszty utrzymania, przychody).
-- Mechanika zatrudnienia i populacji.
-- System jakości życia wpływający na rozwój miasta.
-- Interfejs graficzny oparty na bibliotece SDL2.
+- 🏘️ Budowa stref mieszkalnych, przemysłowych i komunalnych
+- 🛣️ Tworzenie i zarządzanie infrastrukturą drogową
+- 👨‍👩‍👧‍👦 System populacji i zatrudnienia
+- 💰 Budżet i gospodarka (koszty, podatki, przychody)
+- 📊 Wpływ budynków komunalnych na jakość życia
+- 🖼️ Interfejs graficzny oparty o SDL2
 
-## Wymagania
+---
 
-- C++
-- [SDL2](https://www.libsdl.org/download-2.0.php)
-- [SDL2_image](https://www.libsdl.org/projects/SDL_image/)
-- [SDL2_ttf](https://github.com/libsdl-org/SDL_ttf/tree/main/VisualC)
-- Plik `Settings.ini` (konfiguracja wejściowa)
+## 🛠️ Wymagania
 
-## Budowanie projektu
+- 🧠 C++
+- 📦 [SDL2](https://www.libsdl.org/download-2.0.php)
+- 🖼️ [SDL2_image](https://www.libsdl.org/projects/SDL_image/)
+- 🅰️ [SDL2_ttf](https://github.com/libsdl-org/SDL_ttf/tree/main/VisualC)
+- ⚙️ Plik `Settings.ini` z konfiguracją
+- 📁 Foldery z plikami SDL
 
-1. Upewnij się, że masz zainstalowane biblioteki SDL2 (oraz SDL2_image i SDL2_ttf).
-2. Skonfiguruj plik `Settings.ini` zgodnie z własnymi preferencjami.
-3. Zbuduj projekt w środowisku wspierającym C++ (np. Visual Studio).
+---
 
-## Znane błędy
+## 🧪 Uruchamianie projektu
 
-- Budowa na obszarze usuniętym przez narzędzie ERASE kończy się błędem naruszenia dostępu.
-- Stopniowy wzrost zużycia pamięci — podejrzewane wycieki pamięci przez niedestruowane obiekty.
+1. Zainstaluj wymagane biblioteki SDL2.
+2. Upewnij się, że w katalogu projektu znajduje się plik `Settings.ini`.
+3. Skonfiguruj środowisko (np. Visual Studio).
+4. Zbuduj i uruchom projekt.
 
-## Możliwości rozbudowy
+---
 
-- Dodanie kolejnych algorytmów oceny atrakcyjności.
-- Wprowadzenie warunków zwycięstwa / zakończenia gry.
-- Poprawa systemu jakości życia.
-- Optymalizacja architektury kodu.
+## 🌱 Możliwości rozwoju
 
-## Autor
-
-Projekt został wykonany przez **Eustachego Lisińskiego**  
-Prowadzący: mgr inż. Maciej Długosz  
-Wydział Informatyki, Elektroniki i Informatyki – Politechnika Śląska
+- 🧠 Implementacja różnych algorytmów zainteresowania mieszkańców
+- 🎯 Dodanie warunków zakończenia gry
+- 🛠️ Usprawnienie jakości życia jako systemu
+- ⚙️ Refaktoryzacja i rozbudowa kodu (przyjazna architektura)
